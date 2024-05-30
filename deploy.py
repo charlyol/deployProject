@@ -59,6 +59,7 @@ def deployOnAnyWhere():
     # Request body with command
     payload = {
         "input": "git pull\n"
+        # "input": "git pull --force origin main\n"
     }
     # Send POST request to update Git repository
     git_pull_response = requests.post(git_pull_url, headers=headers, data=payload)
