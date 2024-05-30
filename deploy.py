@@ -67,7 +67,7 @@ def deployOnAnyWhere():
 
 def deployOnGit():
     # Local path to your Bottle project
-    projet_path = "/home/olinger/PycharmProjects/pythonAnyWhere"
+    projet_path = "/home/olinger/PycharmProjects/deployProject"
 
     # Commit message with timestamp
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
